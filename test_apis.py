@@ -17,6 +17,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # ============================================
 
 # Insurance Eligibility API (Emdeon/Biologistic)
+# Auth: credentials in body as form params (NOT Basic Auth)
 ELIGIBILITY_CONFIG = {
     "token_url": "https://emdeon.biologisticsolutions.com/token",
     "check_url": "https://emdeon.biologisticsolutions.com/v1/5867F2C5-EE0E-4DE4-9AE3-411C2DA7EE17/eligibility/check",
